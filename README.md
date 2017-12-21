@@ -3,7 +3,7 @@ A few simple but efficient test suites for determining the maximum throughput an
 
 ## Workflow
 - A standard OpenWhisk system is deployed. (_Note that the edge NGINX router and API Gateway are currently left out. As a consequence, the tests talk directly to the controller._)
-- All limits are set to 999999, which for our cases means "No throttling at all".
+- All limits are set to 999999, which in our current use case means "No throttling at all".
 - The deployment is using the docker setup proposed by the OpenWhisk development team: `overlay` driver and HTTP API enabled via a UNIX port.
 
 The load is driven by either the beautiful [`loadtest`](https://www.npmjs.com/package/loadtest) module or the blazingly fast [`wrk`](https://github.com/wg/wrk).
