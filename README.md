@@ -1,4 +1,4 @@
-# Performance tests for Apache OpenWhisk
+# Apache OpenWhisk - Performance Tests
 A few simple but efficient test suites for determining the maximum throughput and end-user latency of the Apache OpenWhisk system.
 
 ## Test setup
