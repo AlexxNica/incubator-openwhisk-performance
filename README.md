@@ -29,5 +29,5 @@ The throughput test determines the maximum throughput a user can get out of the 
 - 10.000 samples with a single user
 - noop action
 
-## Running the suites yourself
-To run the suites against your own system (or any other OpenWhisk deployment really), simply use the repsective script in `/tests` script. Their parameters are defined inline in the respective file.
+## Running tests against your own system is simple!
+All you have to do is use the corresponding script located in `/tests` folder, remembering that the parameters are defined inline.
