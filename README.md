@@ -2,7 +2,7 @@
 A few simple but efficient test suites for determining the maximum throughput and end-user latency of the Apache OpenWhisk system.
 
 ## Workflow
-- A standard OpenWhisk system is deployed. Note that the edge NGINX router and API Gateway are currently left out. As a consequence, the tests talk directly to the controller.
+- A standard OpenWhisk system is deployed. (_Note that the edge NGINX router and API Gateway are currently left out. As a consequence, the tests talk directly to the controller._)
 - All limits are set to 999999, which for our cases means "No throttling at all".
 - The deployment is using the docker setup proposed by the OpenWhisk development team: `overlay` driver and HTTP API enabled via a UNIX port.
 
