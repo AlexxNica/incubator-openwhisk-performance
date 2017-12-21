@@ -8,7 +8,7 @@ A few simple but efficient test suites for determining the maximum throughput an
 
 The load is driven by either the beautiful [`loadtest`](https://www.npmjs.com/package/loadtest) module or the blazingly fast [`wrk`](https://github.com/wg/wrk).
 
-### Travis Machine Setup
+#### Travis Machine Setup
 The [machine provided by Travis](https://docs.travis-ci.com/user/ci-environment/#Virtualization-environments) has ~2 CPU cores (likely shared through virtualization) and 7.5GB memory.
 
 ## Suites
