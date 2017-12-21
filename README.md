@@ -4,7 +4,7 @@ A few simple but efficient test suites for determining the maximum throughput an
 ## Setup
 - A standard OpenWhisk system is deployed. Note that the edge NGINX router and API Gateway are currently left out. As a consequence, the tests talk directly to the controller.
 - All limits are set to 999999, which for our cases means "No throttling at all".
-- The deployment uses a docker setup as proposed by the OpenWhisk development team: `overlay` driver and HTTP API enabled via a UNIX port.
+- The deployment is using the docker setup proposed by the OpenWhisk development team: `overlay` driver and HTTP API enabled via a UNIX port.
 
 The load is driven by either the beautiful [`loadtest`](https://www.npmjs.com/package/loadtest) module or the blazingly fast [`wrk`](https://github.com/wg/wrk).
 
