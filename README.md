@@ -1,5 +1,5 @@
 # Performance tests for Apache OpenWhisk
-A few simple but efficient performance test suites for Apache OpenWhisk. Determines the maximum throughput and end-user latency of the system.
+A few simple but efficient test suites for determining the maximum throughput and end-user latency of the Apache OpenWhisk system.
 
 ## Test setup
 - A standard OpenWhisk system is deployed. Note that the edge nginx router and API Gateway are left out currently. As a consequence, the tests talk directly to the controller.
